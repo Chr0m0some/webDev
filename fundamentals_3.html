@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+      function add_7(number){
+          return number + 7;
+      }
+      console.log(add_7(15));
+      
+      function multiply(num1, num2){
+          return num1 * num2;
+      }
+      console.log(multiply(4, 8));
+
+      function capitalize(word){
+        capitalized_char = word.charAt(0).toUpperCase();
+        rest_of_word = word.slice(1).toLowerCase();
+        return capitalized_char + rest_of_word;
+      }
+      console.log(capitalize('chrIs'));
+
+      let lastLetter = function(string) {
+          let modified_string = string.slice(-1);
+          return modified_string;};
+          
+      console.log(lastLetter('feet'));
+  </script>
+</body>
+</html>
